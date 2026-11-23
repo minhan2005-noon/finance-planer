@@ -2,17 +2,14 @@
 
 Mức AI: **Mức 3** (theo đề bài).
 
-## Vai trò của sinh viên
-
-Tôi là người chịu trách nhiệm toàn bộ đồ án. Tôi tự quyết định kiến trúc và công nghệ (Next.js, Prisma, Better Auth, Neon), tự đưa yêu cầu cho từng phần, tự chạy lệnh, tự kiểm chứng kết quả từng bước, và tôi hiểu toàn bộ code trong repo — tôi có thể giải thích từng phần khi cô hỏi (theo nguyên tắc chấm: chỉ tính điểm phần giải thích được).
 
 ## AI hỗ trợ như thế nào
 
-Tôi dùng trợ lý AI (Muse) gemini, chat plus để hỗ trợ viết code theo đúng yêu cầu tôi đưa ra. AI không tự quyết định thay tôi: mọi file AI viết đều do tôi yêu cầu, tôi đọc lại, tôi chạy thử và tôi chỉnh sửa cho đúng ý mình trước khi nộp.
+em dùng trợ lý AI (Muse) gemini, chat gpt, claude để hỗ trợ tài liệu viết hàm code theo đúng yêu cầu em đưa ra.
 
 | Phần | AI hỗ trợ | Tôi làm |
 | --- | --- | --- |
-| fp1 — Prisma schema, migration, seed | Viết schema và script seed theo đề tôi đưa | Chạy migration/seed, kiểm tra số dư 24.825.000đ trên Neon, push tag fp1 |
+| fp1 — Prisma schema, migration, seed  | Viết schema và script seed theo đề tôi đưa | Chạy migration/seed, kiểm tra số dư 24.825.000đ trên Neon, push tag fp1 |
 | fp2 — Zod schema, Server Actions CRUD, lọc theo URL | Viết schema, actions, filters, 8 unit test Zod | Chạy test, kiểm chứng lọc (tháng này + Thu = 4 giao dịch, tổng thu 16.500.000đ), push tag fp2 |
 | fp3 — Better Auth, DAL `requireUser()` | Viết `auth.ts`, `auth-client.ts`, `dal.ts`, trang login/register, route handler auth, sửa actions lọc theo `userId` | Cài better-auth, tạo `BETTER_AUTH_SECRET`, đăng ký tài khoản thật, chuyển dữ liệu từ demo sang tài khoản thật, push tag fp3 |
 | Giao diện (shadcn, neon cyber, gấu trúc) | Viết lại CSS/theme, component auth-card, animation gấu trúc theo ý tôi | Chạy dev server, xem và chỉnh từng chi tiết (màu, gấu, xe, cây) |
